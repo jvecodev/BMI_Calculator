@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Calculadora IMC</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Tabela IMC</h1>
+        <main class="tronco">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Classificação</th>
+                        <th class="numeros">IMC</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Abaixo do peso</td>
+                        <td class="numeros">Abaixo de 18,5</td>
+                    </tr>
+                    <tr>
+                        <td>Peso normal</td>
+                        <td class="numeros">18,5 - 24,9</td>
+                    </tr>
+                    <tr>
+                        <td>Sobrepeso</td>
+                        <td class="numeros">25 - 29,9</td>
+                    </tr>
+                    <tr>
+                        <td>Obesidade grau 1</td>
+                        <td class="numeros">30 - 34,9</td>
+                    </tr>
+                    <tr>
+                        <td>Obesidade grau 2</td>
+                        <td class="numeros">35 - 39,9</td>
+                    </tr>
+                    <tr>
+                        <td>Obesidade grau 3</td>
+                        <td class="numeros">40 ou mais</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        <section>
+            
+            <form action="/" id="formulario" method="POST">
+                <input type="text" id="peso" name="peso" placeholder="Peso">
+                <input type="text" id="altura" name="altura" placeholder="Altura">
+                <button type="submit">Calcular</button>
+              </form>
+        </section>
+        <div id="resultado"></div>
+    </div>
+    <script src="../js/main.js"></script>
+    
+    
+</body>
+</html>
