@@ -5,7 +5,7 @@
 }
 body{
     font-family: Arial, sans-serif;
-    background: url(/modelo/gym.jpg) no-repeat center center/cover ;
+    background: url(./modelo/gym.jpg) no-repeat center center/cover ;
     display: flex;
     height: 100vh;
     justify-content: center;
